@@ -1,24 +1,9 @@
-# README
+# Synaptic Test - Employee Hierarchy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+This demo app uses Rails 7.2.1. For simplicity's sake, the default db option of sqlite was used but typically I'd use Postgres.
 
-* Ruby version
+To get started, clone the repo and simply run `rails db:setup` followed by `rails server`.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Navigate to [localhost:3000](http://localhost:3000) to view the employee hierarchy, where each level of indentation represents another level of employees working under a manager.
